@@ -1,0 +1,19 @@
+{
+  "name": "flicker-oauth-backend-api",
+  "version": "1.0.0",
+  "description": "Backend API for my Flickr oAuth App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Hirusha Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "flickr-sdk": "^3.10.0",
+    "morgan": "^1.10.0",
+    "oauth": "^0.9.15"
+  }
+}
